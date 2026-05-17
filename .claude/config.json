@@ -1,0 +1,15 @@
+{
+  "project_type": "React TypeScript Frontend",
+  "coding_standards": {
+    "styling": "CSS Modules / Standard CSS (Mobile-First)",
+    "language": "TypeScript",
+    "components": "Functional Components with Hooks",
+    "naming_convention": "PascalCase for components, camelCase for functions/variables"
+  },
+  "preferred_libraries": {
+    "state_management": "React Context / Zustand (if needed)",
+    "routing": "React Router",
+    "icons": "Lucide React",
+    "fetching": "TanStack Query"
+  }
+}
