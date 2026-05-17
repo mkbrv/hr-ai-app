@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name": "HR AI"
+  },
+  "brand": {
+    "name": "JobSwipe",
+    "slogan": "Gagnez de l'argent",
+    "homeLink": "JobSwipe — aller à l'accueil"
+  },
+  "home": {
+    "title": "Trouvez l'emploi de vos rêves",
+    "subtitle": "Votre porte d'entrée vers les meilleurs emplois.",
+    "cta": "Recruter maintenant"
+  },
+  "dashboard": {
+    "jobFeedLabel": "Offres d'emploi",
+    "swipeActionsLabel": "Actions de glissement",
+    "allCaughtUp": "Vous êtes à jour !",
+    "noMoreJobs": "Plus d'offres pour l'instant — revenez plus tard.",
+    "pass": "Passer",
+    "apply": "Postuler"
+  },
+  "jobCard": {
+    "photoAlt": "emploi {{title}}",
+    "driverLicense": "Permis de conduire"
+  }
+}

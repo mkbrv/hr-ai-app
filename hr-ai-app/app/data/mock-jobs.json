@@ -1,5 +1,33 @@
 [
   {
+    "id": "job-agriculture-4",
+    "title": "Farm Worker – Poultry",
+    "description": "Global Talent HR is recruiting 12 farm workers for a poultry operation in Brittany, France. Duties include feeding and watering chickens, cleaning and disinfecting facilities, monitoring flock health, and loading crates. Free accommodation and a €100/month food allowance are included. Shifts are organised with regular rest breaks across a 12-hour day.",
+    "photo": "/images/agriculture.jpg",
+    "location": { "city": "Plouguenast-Langast", "state": "Bretagne", "country": "FR" },
+    "compensation": { "min": 1200, "currency": "EUR", "period": "monthly" },
+    "skills": [
+      { "id": "skill-ag4-1", "name": "Poultry Care" },
+      { "id": "skill-ag4-2", "name": "Animal Health Monitoring" },
+      { "id": "skill-ag4-3", "name": "Farm Sanitation" },
+      { "id": "skill-ag4-4", "name": "Heavy Lifting" }
+    ],
+    "requiresDriverLicense": false,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "entry",
+    "status": "open",
+    "company": {
+      "id": "company-gt1",
+      "name": "Global Talent HR SRL",
+      "description": "Romanian HR agency specialising in placing workers in agricultural and industrial positions across Western Europe.",
+      "industry": "Agriculture",
+      "size": "small",
+      "location": { "city": "Iași", "state": "Iași", "country": "RO" }
+    },
+    "createdAt": "2026-05-17"
+  },
+  {
     "id": "job-construction-1",
     "title": "Construction Worker",
     "description": "We are looking for skilled workers for residential and commercial construction sites. You will work alongside an experienced team, with full protective equipment provided and a safe working environment.",

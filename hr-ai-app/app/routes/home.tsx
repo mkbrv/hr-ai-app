@@ -2,11 +2,17 @@ import { Link } from "react-router"
 import { useTranslation } from "react-i18next"
 
 import { BrandLogo } from "~/components/brand-logo"
+import { LanguageSelector } from "~/components/language-selector"
 
 export default function Home() {
   const { t } = useTranslation()
   return (
     <main className="relative flex min-h-svh flex-col items-center overflow-hidden bg-white px-4 py-10">
+      {/* Language selector — top-right */}
+      <div className="absolute top-4 right-4 z-20">
+        <LanguageSelector />
+      </div>
+
       {/* Scattered decorative shapes */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="absolute top-[8%] left-[6%] size-6 rounded-full border-2 border-slate-200" />
