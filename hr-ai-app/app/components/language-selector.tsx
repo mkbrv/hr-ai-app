@@ -17,6 +17,7 @@ const LANGUAGES: Language[] = [
   { code: "de", label: "Deutsch",   countryCode: "de" },
   { code: "pt", label: "Português", countryCode: "br" },
   { code: "ne", label: "नेपाली",    countryCode: "np" },
+  { code: "ro", label: "Română",    countryCode: "ro" },
 ]
 
 interface LanguageSelectorProps {
