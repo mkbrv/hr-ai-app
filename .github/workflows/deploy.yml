@@ -25,7 +25,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
           cache-dependency-path: hr-ai-app/package-lock.json
 
@@ -36,6 +36,11 @@ jobs:
       - name: Build
         working-directory: hr-ai-app
         run: npm run build
+        env:
+          GITHUB_PAGES: true
+
+      - name: Copy index.html to 404.html for SPA routing
+        run: cp hr-ai-app/build/client/index.html hr-ai-app/build/client/404.html
 
       - uses: actions/upload-pages-artifact@v3
         with:
