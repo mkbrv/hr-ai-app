@@ -36,7 +36,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: hr-ai-app/public/client
+          path: hr-ai-app/build/client
 
   deploy:
     needs: build
