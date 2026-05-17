@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name": "HR AI"
+  },
+  "brand": {
+    "name": "JobSwipe",
+    "slogan": "Make Money",
+    "homeLink": "JobSwipe — go to home"
+  },
+  "home": {
+    "title": "Find Your Dream Job",
+    "subtitle": "Your gateway to the best jobs.",
+    "cta": "Hire Now"
+  },
+  "dashboard": {
+    "jobFeedLabel": "Job feed",
+    "swipeActionsLabel": "Swipe actions",
+    "allCaughtUp": "You're all caught up!",
+    "noMoreJobs": "No more jobs right now — check back later.",
+    "pass": "Pass",
+    "apply": "Apply"
+  },
+  "jobCard": {
+    "photoAlt": "{{title}} job",
+    "driverLicense": "Driver license"
+  }
+}

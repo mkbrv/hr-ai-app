@@ -1,5 +1,6 @@
 import { useRef } from "react"
 import { Heart, X } from "lucide-react"
+import { useTranslation } from "react-i18next"
 
 import { BrandLogo } from "~/components/brand-logo"
 import { JobCard } from "~/components/job-card"
@@ -8,6 +9,7 @@ import { Button } from "~/components/ui/button"
 import { selectCurrentJob, selectHasMoreJobs, useJobsStore } from "~/store/jobs"
 
 export default function Dashboard() {
+  const { t } = useTranslation()
   const currentJob = useJobsStore(selectCurrentJob)
   const hasMore = useJobsStore(selectHasMoreJobs)
   const advance = useJobsStore((s) => s.advance)
@@ -30,7 +32,7 @@ export default function Dashboard() {
       <div className="flex flex-1 flex-col items-center justify-center gap-8 p-4 sm:p-8">
         <section
           className="w-full max-w-sm"
-          aria-label="Job feed"
+          aria-label={t("dashboard.jobFeedLabel")}
         >
           {hasMore && currentJob ? (
             <SwipeableCard
@@ -46,9 +48,9 @@ export default function Dashboard() {
               <span className="text-5xl" aria-hidden="true">
                 🎉
               </span>
-              <p className="text-lg font-semibold text-foreground">You're all caught up!</p>
+              <p className="text-lg font-semibold text-foreground">{t("dashboard.allCaughtUp")}</p>
               <p className="text-sm text-muted-foreground">
-                No more jobs right now — check back later.
+                {t("dashboard.noMoreJobs")}
               </p>
             </div>
           )}
@@ -57,13 +59,13 @@ export default function Dashboard() {
         {/* Action buttons */}
         <div
           className="flex items-center justify-center gap-10"
-          aria-label="Swipe actions"
+          aria-label={t("dashboard.swipeActionsLabel")}
         >
           <Button
             variant="outline"
             size="icon"
             disabled={!hasMore}
-            aria-label="Pass"
+            aria-label={t("dashboard.pass")}
             className="size-16 rounded-full border-2 border-destructive text-destructive hover:bg-destructive hover:text-destructive-foreground disabled:opacity-30"
             onClick={() => cardRef.current?.swipe("left")}
           >
@@ -72,7 +74,7 @@ export default function Dashboard() {
           <Button
             size="icon"
             disabled={!hasMore}
-            aria-label="Apply"
+            aria-label={t("dashboard.apply")}
             className="size-16 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 disabled:opacity-30"
             onClick={() => cardRef.current?.swipe("right")}
           >

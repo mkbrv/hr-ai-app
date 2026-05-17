@@ -1,4 +1,5 @@
 import { forwardRef, useCallback, useImperativeHandle, useRef, useState } from "react"
+import { useTranslation } from "react-i18next"
 
 const SWIPE_THRESHOLD = 80
 
@@ -14,6 +15,7 @@ interface SwipeableCardProps {
 
 export const SwipeableCard = forwardRef<SwipeableCardRef, SwipeableCardProps>(
   function SwipeableCard({ onSwipeLeft, onSwipeRight, children }, ref) {
+    const { t } = useTranslation()
     const [offset, setOffset] = useState({ x: 0, y: 0 })
     const [isDragging, setIsDragging] = useState(false)
     const startRef = useRef({ x: 0, y: 0 })
@@ -82,7 +84,7 @@ export const SwipeableCard = forwardRef<SwipeableCardRef, SwipeableCardProps>(
           style={{ opacity: applyOpacity }}
         >
           <span className="border-[3px] border-green-500 text-green-500 font-black text-2xl uppercase px-3 py-1 rounded-lg -rotate-12 bg-background/30 backdrop-blur-sm">
-            Apply
+            {t("dashboard.apply")}
           </span>
         </div>
 
@@ -92,7 +94,7 @@ export const SwipeableCard = forwardRef<SwipeableCardRef, SwipeableCardProps>(
           style={{ opacity: passOpacity }}
         >
           <span className="border-[3px] border-destructive text-destructive font-black text-2xl uppercase px-3 py-1 rounded-lg rotate-12 bg-background/30 backdrop-blur-sm">
-            Pass
+            {t("dashboard.pass")}
           </span>
         </div>
 

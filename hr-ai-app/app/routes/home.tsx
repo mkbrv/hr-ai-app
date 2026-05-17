@@ -1,8 +1,10 @@
 import { Link } from "react-router"
+import { useTranslation } from "react-i18next"
 
 import { BrandLogo } from "~/components/brand-logo"
 
 export default function Home() {
+  const { t } = useTranslation()
   return (
     <main className="relative flex min-h-svh flex-col items-center overflow-hidden bg-white px-4 py-10">
       {/* Scattered decorative shapes */}
@@ -26,14 +28,14 @@ export default function Home() {
       {/* Hero content */}
       <div className="relative z-10 mt-10 flex flex-col items-center gap-4 text-center">
         <h1 className="text-5xl font-black leading-tight tracking-tight text-[#1a237e] sm:text-6xl">
-          Find Your Dream Job
+          {t("home.title")}
         </h1>
-        <p className="text-base text-slate-400">Your gateway to the best jobs.</p>
+        <p className="text-base text-slate-400">{t("home.subtitle")}</p>
         <Link
           to="/app"
           className="mt-1 inline-flex min-w-[200px] items-center justify-center rounded bg-[#1a237e] px-10 py-3.5 text-sm font-bold tracking-[0.18em] text-white uppercase transition-opacity hover:opacity-90"
         >
-          Hire Now
+          {t("home.cta")}
         </Link>
       </div>
 

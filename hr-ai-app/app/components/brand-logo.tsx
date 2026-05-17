@@ -1,4 +1,5 @@
 import { Link } from "react-router"
+import { useTranslation } from "react-i18next"
 
 import { cn } from "~/lib/utils"
 
@@ -22,6 +23,7 @@ export function BrandLogo({
   iconSize = "h-20 w-20",
   wordmarkSize = "text-xl",
 }: BrandLogoProps) {
+  const { t } = useTranslation()
   const content = (
     <span className={cn("flex flex-col items-center gap-0.5", className)}>
       <LogoIcon className={iconSize} />
@@ -31,11 +33,11 @@ export function BrandLogo({
           wordmarkSize,
         )}
       >
-        JobSwipe
+        {t("brand.name")}
       </span>
       {showSlogan && (
         <span className="text-[9px] font-bold tracking-[0.28em] text-red-500 uppercase">
-          Make Money
+          {t("brand.slogan")}
         </span>
       )}
     </span>
@@ -43,7 +45,7 @@ export function BrandLogo({
 
   if (asLink) {
     return (
-      <Link to="/" aria-label="JobSwipe — go to home">
+      <Link to="/" aria-label={t("brand.homeLink")}>
         {content}
       </Link>
     )

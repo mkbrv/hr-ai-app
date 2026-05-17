@@ -1,4 +1,5 @@
 import { Banknote, Car, MapPin } from "lucide-react"
+import { useTranslation } from "react-i18next"
 
 import { assetUrl, cn } from "~/lib/utils"
 import { Badge } from "~/components/ui/badge"
@@ -23,12 +24,13 @@ function formatLocation(job: Job): string {
 }
 
 export function JobCard({ job, className }: { job: Job; className?: string }) {
+  const { t } = useTranslation()
   return (
     <Card className={cn("w-full overflow-hidden", className)}>
       {job.photo ? (
         <img
           src={assetUrl(job.photo)}
-          alt={`${job.title} job`}
+          alt={t("jobCard.photoAlt", { title: job.title })}
           className="aspect-[4/3] w-full object-cover"
         />
       ) : (
@@ -64,7 +66,7 @@ export function JobCard({ job, className }: { job: Job; className?: string }) {
             {job.requiresDriverLicense && (
               <Badge variant="secondary">
                 <Car className="size-3" />
-                Driver license
+                {t("jobCard.driverLicense")}
               </Badge>
             )}
           </div>
