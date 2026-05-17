@@ -1,0 +1,164 @@
+[
+  {
+    "id": "job-construction-1",
+    "title": "Construction Worker",
+    "description": "We are looking for skilled workers for residential and commercial construction sites. You will work alongside an experienced team, with full protective equipment provided and a safe working environment.",
+    "photo": "/images/constructions.jpg",
+    "location": { "city": "Brașov", "state": "Brașov", "country": "RO" },
+    "compensation": { "min": 25, "max": 30, "currency": "RON", "period": "hourly" },
+    "skills": [
+      { "id": "skill-c1", "name": "Masonry" },
+      { "id": "skill-c2", "name": "Formwork" },
+      { "id": "skill-c3", "name": "Working at Heights" }
+    ],
+    "requiresDriverLicense": false,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "entry",
+    "status": "open",
+    "company": {
+      "id": "company-c1",
+      "name": "Construct Pro SRL",
+      "description": "Construction company with over 15 years of experience in residential and industrial projects across Transylvania.",
+      "industry": "Construction",
+      "size": "medium",
+      "location": { "city": "Brașov", "state": "Brașov", "country": "RO" }
+    },
+    "createdAt": "2026-05-01"
+  },
+  {
+    "id": "job-horeca-1",
+    "title": "Waiter",
+    "description": "Traditional restaurant in the heart of Sibiu is looking for waiters with a friendly attitude and a passion for delivering an unforgettable guest experience. Flexible schedule, good tips, and a young team.",
+    "photo": "/images/hospitality-and-food.jpg",
+    "location": { "city": "Sibiu", "state": "Sibiu", "country": "RO" },
+    "compensation": { "min": 18, "max": 22, "currency": "RON", "period": "hourly" },
+    "skills": [
+      { "id": "skill-h1", "name": "Customer Service" },
+      { "id": "skill-h2", "name": "Communication" },
+      { "id": "skill-h3", "name": "Teamwork" }
+    ],
+    "requiresDriverLicense": false,
+    "employmentType": "part-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "entry",
+    "status": "open",
+    "company": {
+      "id": "company-h1",
+      "name": "Crama Sibiului",
+      "description": "Traditional Romanian restaurant with a capacity of 120 seats, renowned for its authentic cuisine and warm atmosphere.",
+      "industry": "Hospitality & Food",
+      "size": "small",
+      "location": { "city": "Sibiu", "state": "Sibiu", "country": "RO" }
+    },
+    "createdAt": "2026-05-03"
+  },
+  {
+    "id": "job-manufacturing-1",
+    "title": "Assembly Line Operator",
+    "description": "Automotive parts factory in Ploiești is recruiting operators for automated assembly lines. We offer full on-the-job training, meal vouchers, and free transport from the city.",
+    "photo": "/images/manufacturing-assembly-lines.jpg",
+    "location": { "city": "Ploiești", "state": "Prahova", "country": "RO" },
+    "compensation": { "min": 22, "max": 26, "currency": "RON", "period": "hourly" },
+    "skills": [
+      { "id": "skill-m1", "name": "Machine Operation" },
+      { "id": "skill-m2", "name": "Quality Control" },
+      { "id": "skill-m3", "name": "Attention to Detail" }
+    ],
+    "requiresDriverLicense": false,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "entry",
+    "status": "open",
+    "company": {
+      "id": "company-m1",
+      "name": "AutoPart România SA",
+      "description": "Automotive components manufacturer for the European market, with factories in Ploiești and Pitești.",
+      "industry": "Manufacturing & Assembly",
+      "size": "large",
+      "location": { "city": "Ploiești", "state": "Prahova", "country": "RO" }
+    },
+    "createdAt": "2026-05-05"
+  },
+  {
+    "id": "job-retail-1",
+    "title": "Warehouse Worker / Courier",
+    "description": "Fast-growing logistics company is looking for warehouse staff and couriers for its Cluj-Napoca distribution center. Flexible shifts, performance bonuses, and real opportunities for advancement.",
+    "photo": "/images/retail.jpg",
+    "location": { "city": "Cluj-Napoca", "state": "Cluj", "country": "RO" },
+    "compensation": { "min": 20, "max": 24, "currency": "RON", "period": "hourly" },
+    "skills": [
+      { "id": "skill-r1", "name": "Stock Management" },
+      { "id": "skill-r2", "name": "Barcode Scanning" },
+      { "id": "skill-r3", "name": "Parcel Delivery" }
+    ],
+    "requiresDriverLicense": true,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "entry",
+    "status": "open",
+    "company": {
+      "id": "company-r1",
+      "name": "RapidExpress SRL",
+      "description": "National courier and logistics network with over 50 distribution centers across Romania.",
+      "industry": "Retail & Logistics",
+      "size": "large",
+      "location": { "city": "Cluj-Napoca", "state": "Cluj", "country": "RO" }
+    },
+    "createdAt": "2026-05-07"
+  },
+  {
+    "id": "job-agriculture-1",
+    "title": "Seasonal Farm Worker",
+    "description": "Fruit and vegetable farm near Craiova is hiring seasonal workers for harvesting and crop care. On-farm accommodation provided, meals included, and weekly pay.",
+    "photo": "/images/agriculture.jpg",
+    "location": { "city": "Craiova", "state": "Dolj", "country": "RO" },
+    "compensation": { "min": 15, "max": 18, "currency": "RON", "period": "hourly" },
+    "skills": [
+      { "id": "skill-a1", "name": "Harvesting" },
+      { "id": "skill-a2", "name": "Irrigation" },
+      { "id": "skill-a3", "name": "Physical Stamina" }
+    ],
+    "requiresDriverLicense": true,
+    "employmentType": "contract",
+    "workArrangement": "onsite",
+    "experienceLevel": "entry",
+    "status": "open",
+    "company": {
+      "id": "company-a1",
+      "name": "AgroOltenia SRL",
+      "description": "Agricultural farm with 300 hectares of vegetables, fruits, and cereals in southern Romania.",
+      "industry": "Agriculture",
+      "size": "medium",
+      "location": { "city": "Craiova", "state": "Dolj", "country": "RO" }
+    },
+    "createdAt": "2026-05-09"
+  },
+  {
+    "id": "job-cleaning-1",
+    "title": "Domestic Cleaner",
+    "description": "Cleaning services agency in Bucharest is hiring staff for residential and office cleaning. Schedule adapted to your availability, cleaning supplies provided, and long-term loyal clients.",
+    "photo": "/images/domestic-cleaning.jpg",
+    "location": { "city": "București", "state": "Ilfov", "country": "RO" },
+    "compensation": { "min": 16, "max": 20, "currency": "RON", "period": "hourly" },
+    "skills": [
+      { "id": "skill-d1", "name": "General Cleaning" },
+      { "id": "skill-d2", "name": "Sanitization" },
+      { "id": "skill-d3", "name": "Space Organization" }
+    ],
+    "requiresDriverLicense": false,
+    "employmentType": "part-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "entry",
+    "status": "open",
+    "company": {
+      "id": "company-d1",
+      "name": "CleanHome România",
+      "description": "Agency specializing in residential and commercial cleaning services, operating across Bucharest and Ilfov.",
+      "industry": "Domestic & Cleaning",
+      "size": "small",
+      "location": { "city": "București", "state": "Ilfov", "country": "RO" }
+    },
+    "createdAt": "2026-05-11"
+  }
+]
