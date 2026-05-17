@@ -20,6 +20,24 @@
     "pass": "Passar",
     "apply": "Candidatar"
   },
+  "enums": {
+    "employmentType": {
+      "full-time": "Tempo integral",
+      "part-time": "Meio período",
+      "contract": "Contrato",
+      "internship": "Estágio"
+    },
+    "workArrangement": {
+      "onsite": "Presencial",
+      "hybrid": "Híbrido",
+      "remote": "Remoto"
+    },
+    "experienceLevel": {
+      "entry": "Iniciante",
+      "mid": "Intermediário",
+      "senior": "Sênior"
+    }
+  },
   "jobCard": {
     "photoAlt": "vaga {{title}}",
     "driverLicense": "Carteira de motorista",

@@ -20,6 +20,24 @@
     "pass": "छोड्नुहोस्",
     "apply": "आवेदन दिनुहोस्"
   },
+  "enums": {
+    "employmentType": {
+      "full-time": "पूर्णकालीन",
+      "part-time": "अंशकालीन",
+      "contract": "करार",
+      "internship": "इन्टर्नशिप"
+    },
+    "workArrangement": {
+      "onsite": "कार्यालयमा",
+      "hybrid": "हाइब्रिड",
+      "remote": "टाढाबाट"
+    },
+    "experienceLevel": {
+      "entry": "प्रवेश स्तर",
+      "mid": "मध्यम स्तर",
+      "senior": "वरिष्ठ"
+    }
+  },
   "jobCard": {
     "photoAlt": "{{title}} जागिर",
     "driverLicense": "सवारी चालक अनुमतिपत्र",

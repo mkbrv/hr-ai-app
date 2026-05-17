@@ -20,6 +20,24 @@
     "pass": "Passer",
     "apply": "Postuler"
   },
+  "enums": {
+    "employmentType": {
+      "full-time": "Temps plein",
+      "part-time": "Temps partiel",
+      "contract": "Contrat",
+      "internship": "Stage"
+    },
+    "workArrangement": {
+      "onsite": "Sur site",
+      "hybrid": "Hybride",
+      "remote": "À distance"
+    },
+    "experienceLevel": {
+      "entry": "Débutant",
+      "mid": "Intermédiaire",
+      "senior": "Senior"
+    }
+  },
   "jobCard": {
     "photoAlt": "emploi {{title}}",
     "driverLicense": "Permis de conduire",

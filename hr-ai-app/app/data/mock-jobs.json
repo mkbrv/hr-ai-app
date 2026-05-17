@@ -25,7 +25,59 @@
       "size": "small",
       "location": { "city": "Iași", "state": "Iași", "country": "RO" }
     },
-    "createdAt": "2026-05-17"
+    "createdAt": "2026-05-17",
+    "translations": {
+      "es": {
+        "title": "Trabajador Agrícola – Avicultura",
+        "description": "Global Talent HR está reclutando 12 trabajadores agrícolas para una granja avícola en Bretaña, Francia. Las tareas incluyen alimentar y dar agua a los pollos, limpiar y desinfectar las instalaciones, supervisar la salud del rebaño y cargar jaulas. Se ofrece alojamiento gratuito y un subsidio de alimentación de 100 €/mes. Los turnos están organizados con descansos regulares en una jornada de 12 horas.",
+        "skills": {
+          "skill-ag4-1": "Cuidado de Aves",
+          "skill-ag4-2": "Control de Salud Animal",
+          "skill-ag4-3": "Saneamiento Agrícola",
+          "skill-ag4-4": "Carga Pesada"
+        }
+      },
+      "fr": {
+        "title": "Ouvrier Agricole – Aviculture",
+        "description": "Global Talent HR recrute 12 ouvriers agricoles pour une exploitation avicole en Bretagne, France. Les missions comprennent l'alimentation et l'abreuvement des poulets, le nettoyage et la désinfection des installations, la surveillance de l'état sanitaire du troupeau et le chargement des caisses. Un hébergement gratuit et une prime alimentaire de 100 €/mois sont inclus. Les horaires sont organisés avec des pauses régulières sur une journée de 12 heures.",
+        "skills": {
+          "skill-ag4-1": "Élevage Avicole",
+          "skill-ag4-2": "Suivi Sanitaire Animal",
+          "skill-ag4-3": "Assainissement Agricole",
+          "skill-ag4-4": "Port de Charges Lourdes"
+        }
+      },
+      "de": {
+        "title": "Landarbeiter – Geflügelhaltung",
+        "description": "Global Talent HR rekrutiert 12 Landarbeiter für einen Geflügelbetrieb in der Bretagne, Frankreich. Zu den Aufgaben gehören Fütterung und Tränke der Hühner, Reinigung und Desinfektion der Einrichtungen, Überwachung der Tiergesundheit und Verladen von Käfigen. Kostenlose Unterkunft und eine Essensbeihilfe von 100 €/Monat sind inklusive. Die Schichten sind mit regelmäßigen Pausen über einen 12-Stunden-Tag organisiert.",
+        "skills": {
+          "skill-ag4-1": "Geflügelpflege",
+          "skill-ag4-2": "Tiergesundheitsüberwachung",
+          "skill-ag4-3": "Betriebshygiene",
+          "skill-ag4-4": "Schweres Heben"
+        }
+      },
+      "pt": {
+        "title": "Trabalhador Agrícola – Avicultura",
+        "description": "A Global Talent HR está a recrutar 12 trabalhadores agrícolas para uma exploração avícola na Bretanha, França. As funções incluem alimentar e regar as galinhas, limpar e desinfetar as instalações, monitorizar a saúde do bando e carregar caixas. Alojamento gratuito e subsídio de alimentação de 100 €/mês incluídos. Os turnos estão organizados com intervalos regulares ao longo de um dia de 12 horas.",
+        "skills": {
+          "skill-ag4-1": "Criação Avícola",
+          "skill-ag4-2": "Monitorização de Saúde Animal",
+          "skill-ag4-3": "Saneamento Agrícola",
+          "skill-ag4-4": "Levantamento de Cargas Pesadas"
+        }
+      },
+      "ne": {
+        "title": "कृषि कर्मचारी – कुखुरा पालन",
+        "description": "ग्लोबल ट्यालेन्ट एचआरले फ्रान्सको ब्रिटनीमा कुखुरा फार्मका लागि १२ जना कृषि कर्मचारी भर्ना गर्दैछ। कामहरूमा कुखुरालाई दाना र पानी दिने, सुविधाहरू सफा तथा कीटाणुमुक्त गर्ने, बथानको स्वास्थ्य निगरानी गर्ने र बाकसहरू लोड गर्ने समावेश छन्। निःशुल्क आवास र महिनाको €१०० खाना भत्ता समावेश गरिएको छ। १२ घन्टाको दिनमा नियमित विश्राम बिरामका साथ पाली मिलाइएका छन्।",
+        "skills": {
+          "skill-ag4-1": "कुखुरा पालन",
+          "skill-ag4-2": "पशु स्वास्थ्य निगरानी",
+          "skill-ag4-3": "फार्म सरसफाइ",
+          "skill-ag4-4": "भारी सामान उठाउने"
+        }
+      }
+    }
   },
   {
     "id": "job-construction-1",
@@ -52,7 +104,54 @@
       "size": "medium",
       "location": { "city": "Brașov", "state": "Brașov", "country": "RO" }
     },
-    "createdAt": "2026-05-01"
+    "createdAt": "2026-05-01",
+    "translations": {
+      "es": {
+        "title": "Trabajador de Construcción",
+        "description": "Buscamos trabajadores cualificados para obras de construcción residencial y comercial. Trabajará junto a un equipo experimentado, con equipo de protección completo provisto y un entorno de trabajo seguro.",
+        "skills": {
+          "skill-c1": "Albañilería",
+          "skill-c2": "Encofrado",
+          "skill-c3": "Trabajo en Altura"
+        }
+      },
+      "fr": {
+        "title": "Ouvrier du Bâtiment",
+        "description": "Nous recherchons des ouvriers qualifiés pour des chantiers de construction résidentielle et commerciale. Vous travaillerez au sein d'une équipe expérimentée, avec un équipement de protection individuelle complet et un environnement de travail sécurisé.",
+        "skills": {
+          "skill-c1": "Maçonnerie",
+          "skill-c2": "Coffrage",
+          "skill-c3": "Travail en Hauteur"
+        }
+      },
+      "de": {
+        "title": "Bauarbeiter",
+        "description": "Wir suchen qualifizierte Fachkräfte für Wohn- und Gewerbebauvorhaben. Sie arbeiten in einem erfahrenen Team mit vollständiger persönlicher Schutzausrüstung und sicherer Arbeitsumgebung.",
+        "skills": {
+          "skill-c1": "Maurerarbeiten",
+          "skill-c2": "Schalungsarbeiten",
+          "skill-c3": "Arbeiten auf Höhe"
+        }
+      },
+      "pt": {
+        "title": "Trabalhador da Construção Civil",
+        "description": "Procuramos trabalhadores qualificados para obras de construção residencial e comercial. Irá trabalhar ao lado de uma equipa experiente, com equipamento de proteção individual completo e um ambiente de trabalho seguro.",
+        "skills": {
+          "skill-c1": "Alvenaria",
+          "skill-c2": "Cofragem",
+          "skill-c3": "Trabalho em Altura"
+        }
+      },
+      "ne": {
+        "title": "निर्माण कर्मचारी",
+        "description": "हामी आवासीय र व्यावसायिक निर्माण साइटहरूका लागि दक्ष कर्मचारीहरू खोजिरहेका छौं। तपाईं अनुभवी टोलीसँगै काम गर्नुहुनेछ, पूर्ण सुरक्षात्मक उपकरण उपलब्ध गराइनेछ र सुरक्षित कार्यस्थल प्रदान गरिनेछ।",
+        "skills": {
+          "skill-c1": "इँटा र सिमेन्ट काम",
+          "skill-c2": "फर्मवर्क",
+          "skill-c3": "उचाइमा काम"
+        }
+      }
+    }
   },
   {
     "id": "job-horeca-1",
@@ -79,7 +178,54 @@
       "size": "small",
       "location": { "city": "Sibiu", "state": "Sibiu", "country": "RO" }
     },
-    "createdAt": "2026-05-03"
+    "createdAt": "2026-05-03",
+    "translations": {
+      "es": {
+        "title": "Camarero",
+        "description": "Restaurante tradicional en el corazón de Sibiu busca camareros con actitud amable y pasión por ofrecer una experiencia inolvidable a los clientes. Horario flexible, buenas propinas y un equipo joven.",
+        "skills": {
+          "skill-h1": "Atención al Cliente",
+          "skill-h2": "Comunicación",
+          "skill-h3": "Trabajo en Equipo"
+        }
+      },
+      "fr": {
+        "title": "Serveur / Serveuse",
+        "description": "Restaurant traditionnel au cœur de Sibiu recherche des serveurs avec une attitude chaleureuse et la passion d'offrir une expérience inoubliable aux clients. Horaires flexibles, bons pourboires et une jeune équipe dynamique.",
+        "skills": {
+          "skill-h1": "Service Client",
+          "skill-h2": "Communication",
+          "skill-h3": "Esprit d'Équipe"
+        }
+      },
+      "de": {
+        "title": "Kellner / Kellnerin",
+        "description": "Traditionelles Restaurant im Herzen von Sibiu sucht Kellner mit freundlichem Auftreten und Leidenschaft für unvergessliche Gästeerlebnisse. Flexible Arbeitszeiten, gute Trinkgelder und ein junges Team.",
+        "skills": {
+          "skill-h1": "Kundenservice",
+          "skill-h2": "Kommunikation",
+          "skill-h3": "Teamarbeit"
+        }
+      },
+      "pt": {
+        "title": "Empregado/a de Mesa",
+        "description": "Restaurante tradicional no coração de Sibiu procura empregados de mesa com atitude simpática e paixão por proporcionar uma experiência inesquecível aos clientes. Horário flexível, boas gorjetas e uma equipa jovem.",
+        "skills": {
+          "skill-h1": "Atendimento ao Cliente",
+          "skill-h2": "Comunicação",
+          "skill-h3": "Trabalho em Equipa"
+        }
+      },
+      "ne": {
+        "title": "वेटर",
+        "description": "सिबियुको मध्यमा रहेको परम्परागत रेस्टुरेन्टले मैत्रीपूर्ण स्वभाव र अतिथिलाई अविस्मरणीय अनुभव दिन जोश भएका वेटरहरू खोजिरहेको छ। लचिलो तालिका, राम्रो टिप्स र युवा टोली।",
+        "skills": {
+          "skill-h1": "ग्राहक सेवा",
+          "skill-h2": "सञ्चार",
+          "skill-h3": "टिमवर्क"
+        }
+      }
+    }
   },
   {
     "id": "job-manufacturing-1",
@@ -106,7 +252,54 @@
       "size": "large",
       "location": { "city": "Ploiești", "state": "Prahova", "country": "RO" }
     },
-    "createdAt": "2026-05-05"
+    "createdAt": "2026-05-05",
+    "translations": {
+      "es": {
+        "title": "Operador de Línea de Ensamblaje",
+        "description": "Fábrica de componentes automotrices en Ploiești recluta operadores para líneas de ensamblaje automatizadas. Ofrecemos capacitación completa en el puesto, vales de comida y transporte gratuito desde la ciudad.",
+        "skills": {
+          "skill-m1": "Operación de Maquinaria",
+          "skill-m2": "Control de Calidad",
+          "skill-m3": "Atención al Detalle"
+        }
+      },
+      "fr": {
+        "title": "Opérateur de Chaîne de Montage",
+        "description": "Usine de pièces automobiles à Ploiești recrute des opérateurs pour des chaînes de montage automatisées. Nous offrons une formation complète sur le poste, des tickets-repas et le transport gratuit depuis la ville.",
+        "skills": {
+          "skill-m1": "Conduite de Machines",
+          "skill-m2": "Contrôle Qualité",
+          "skill-m3": "Rigueur et Précision"
+        }
+      },
+      "de": {
+        "title": "Montagelinienoperator",
+        "description": "Automobilzulieferer in Ploiești sucht Mitarbeiter für automatisierte Montagelinien. Wir bieten vollständige Einarbeitung, Essensgutscheine und kostenlosen Transport aus der Stadt.",
+        "skills": {
+          "skill-m1": "Maschinenbedienung",
+          "skill-m2": "Qualitätskontrolle",
+          "skill-m3": "Sorgfalt und Genauigkeit"
+        }
+      },
+      "pt": {
+        "title": "Operador de Linha de Montagem",
+        "description": "Fábrica de componentes automóveis em Ploiești recruta operadores para linhas de montagem automatizadas. Oferecemos formação completa no local de trabalho, vales de refeição e transporte gratuito desde a cidade.",
+        "skills": {
+          "skill-m1": "Operação de Máquinas",
+          "skill-m2": "Controlo de Qualidade",
+          "skill-m3": "Atenção ao Detalhe"
+        }
+      },
+      "ne": {
+        "title": "असेम्बली लाइन अपरेटर",
+        "description": "प्लोयेष्टीको मोटरगाडी पार्ट्स कारखानाले स्वचालित असेम्बली लाइनका लागि अपरेटरहरू भर्ना गर्दैछ। हामी काममा पूर्ण तालिम, खाना भाउचर र शहरबाट निःशुल्क यातायात प्रदान गर्दछौं।",
+        "skills": {
+          "skill-m1": "मेसिन सञ्चालन",
+          "skill-m2": "गुणस्तर नियन्त्रण",
+          "skill-m3": "विवरणमा ध्यान"
+        }
+      }
+    }
   },
   {
     "id": "job-retail-1",
@@ -133,7 +326,54 @@
       "size": "large",
       "location": { "city": "Cluj-Napoca", "state": "Cluj", "country": "RO" }
     },
-    "createdAt": "2026-05-07"
+    "createdAt": "2026-05-07",
+    "translations": {
+      "es": {
+        "title": "Operario de Almacén / Mensajero",
+        "description": "Empresa de logística en rápido crecimiento busca personal de almacén y mensajeros para su centro de distribución en Cluj-Napoca. Turnos flexibles, bonos por rendimiento y oportunidades reales de crecimiento.",
+        "skills": {
+          "skill-r1": "Gestión de Inventario",
+          "skill-r2": "Lectura de Código de Barras",
+          "skill-r3": "Entrega de Paquetes"
+        }
+      },
+      "fr": {
+        "title": "Magasinier / Livreur",
+        "description": "Entreprise logistique en pleine croissance recherche du personnel d'entrepôt et des livreurs pour son centre de distribution de Cluj-Napoca. Horaires flexibles, primes de rendement et véritables opportunités d'évolution.",
+        "skills": {
+          "skill-r1": "Gestion des Stocks",
+          "skill-r2": "Lecture de Code-Barres",
+          "skill-r3": "Livraison de Colis"
+        }
+      },
+      "de": {
+        "title": "Lagerist / Kurier",
+        "description": "Wachsendes Logistikunternehmen sucht Lagermitarbeiter und Kuriere für das Verteilzentrum Cluj-Napoca. Flexible Schichten, Leistungsprämien und echte Aufstiegschancen.",
+        "skills": {
+          "skill-r1": "Lagerverwaltung",
+          "skill-r2": "Barcode-Scanning",
+          "skill-r3": "Paketzustellung"
+        }
+      },
+      "pt": {
+        "title": "Operador de Armazém / Estafeta",
+        "description": "Empresa de logística em rápido crescimento procura pessoal de armazém e estafetas para o seu centro de distribuição em Cluj-Napoca. Turnos flexíveis, bónus de desempenho e oportunidades reais de progressão.",
+        "skills": {
+          "skill-r1": "Gestão de Stocks",
+          "skill-r2": "Leitura de Código de Barras",
+          "skill-r3": "Entrega de Encomendas"
+        }
+      },
+      "ne": {
+        "title": "गोदाम कर्मचारी / कुरियर",
+        "description": "द्रुत गतिमा बढ्दो लजिस्टिक्स कम्पनीले क्लुज-नापोकाको वितरण केन्द्रका लागि गोदाम कर्मचारी र कुरियरहरू खोजिरहेको छ। लचिलो पाली, प्रदर्शन बोनस र वास्तविक उन्नतिका अवसरहरू।",
+        "skills": {
+          "skill-r1": "स्टक व्यवस्थापन",
+          "skill-r2": "बारकोड स्क्यानिङ",
+          "skill-r3": "पार्सल डेलिभरी"
+        }
+      }
+    }
   },
   {
     "id": "job-agriculture-1",
@@ -160,7 +400,54 @@
       "size": "medium",
       "location": { "city": "Craiova", "state": "Dolj", "country": "RO" }
     },
-    "createdAt": "2026-05-09"
+    "createdAt": "2026-05-09",
+    "translations": {
+      "es": {
+        "title": "Trabajador Agrícola Temporal",
+        "description": "Granja de frutas y verduras cerca de Craiova contrata trabajadores temporales para la cosecha y el cuidado de cultivos. Alojamiento en la granja, comidas incluidas y pago semanal.",
+        "skills": {
+          "skill-a1": "Cosecha",
+          "skill-a2": "Riego",
+          "skill-a3": "Resistencia Física"
+        }
+      },
+      "fr": {
+        "title": "Ouvrier Agricole Saisonnier",
+        "description": "Exploitation maraîchère et fruitière près de Craiova recrute des saisonniers pour la récolte et l'entretien des cultures. Hébergement sur place, repas inclus et paiement hebdomadaire.",
+        "skills": {
+          "skill-a1": "Récolte",
+          "skill-a2": "Irrigation",
+          "skill-a3": "Endurance Physique"
+        }
+      },
+      "de": {
+        "title": "Saisonarbeiter in der Landwirtschaft",
+        "description": "Obst- und Gemüsehof in der Nähe von Craiova sucht Saisonarbeiter für die Ernte und Pflege von Kulturen. Unterkunft auf dem Hof, Mahlzeiten inbegriffen und wöchentliche Lohnzahlung.",
+        "skills": {
+          "skill-a1": "Ernte",
+          "skill-a2": "Bewässerung",
+          "skill-a3": "Körperliche Belastbarkeit"
+        }
+      },
+      "pt": {
+        "title": "Trabalhador Agrícola Sazonal",
+        "description": "Quinta de frutas e legumes perto de Craiova recruta trabalhadores sazonais para colheita e tratamento de culturas. Alojamento na quinta, refeições incluídas e pagamento semanal.",
+        "skills": {
+          "skill-a1": "Colheita",
+          "skill-a2": "Irrigação",
+          "skill-a3": "Resistência Física"
+        }
+      },
+      "ne": {
+        "title": "मौसमी कृषि कर्मचारी",
+        "description": "क्राइओभाको नजिक फलफूल र तरकारी फार्मले उपज तथा बाली हेरचाहका लागि मौसमी कर्मचारीहरू नियुक्त गर्दैछ। फार्ममा आवास, खाना समावेश र साप्ताहिक तलब।",
+        "skills": {
+          "skill-a1": "फसल कटाइ",
+          "skill-a2": "सिँचाइ",
+          "skill-a3": "शारीरिक सहनशीलता"
+        }
+      }
+    }
   },
   {
     "id": "job-cleaning-1",
@@ -187,7 +474,54 @@
       "size": "small",
       "location": { "city": "București", "state": "Ilfov", "country": "RO" }
     },
-    "createdAt": "2026-05-11"
+    "createdAt": "2026-05-11",
+    "translations": {
+      "es": {
+        "title": "Limpiador/a Doméstico/a",
+        "description": "Agencia de servicios de limpieza en Bucarest contrata personal para limpieza residencial y de oficinas. Horario adaptado a tu disponibilidad, suministros de limpieza provistos y clientes estables a largo plazo.",
+        "skills": {
+          "skill-d1": "Limpieza General",
+          "skill-d2": "Saneamiento",
+          "skill-d3": "Organización de Espacios"
+        }
+      },
+      "fr": {
+        "title": "Agent de Nettoyage Résidentiel",
+        "description": "Agence de nettoyage à Bucarest recrute du personnel pour le nettoyage résidentiel et de bureaux. Emploi du temps adapté à vos disponibilités, produits d'entretien fournis et clientèle fidèle sur le long terme.",
+        "skills": {
+          "skill-d1": "Nettoyage Général",
+          "skill-d2": "Désinfection",
+          "skill-d3": "Organisation des Espaces"
+        }
+      },
+      "de": {
+        "title": "Haushaltsreinigungskraft",
+        "description": "Reinigungsdienstleister in Bukarest sucht Personal für Privat- und Büroreinigungen. Arbeitszeiten nach Ihren Möglichkeiten, Reinigungsmittel werden gestellt und langfristige Stammkunden.",
+        "skills": {
+          "skill-d1": "Allgemeine Reinigung",
+          "skill-d2": "Desinfektion",
+          "skill-d3": "Raumorganisation"
+        }
+      },
+      "pt": {
+        "title": "Empregado/a de Limpeza Doméstica",
+        "description": "Agência de serviços de limpeza em Bucareste recruta pessoal para limpeza residencial e de escritórios. Horário adaptado à sua disponibilidade, produtos de limpeza fornecidos e clientes fidelizados a longo prazo.",
+        "skills": {
+          "skill-d1": "Limpeza Geral",
+          "skill-d2": "Desinfeção",
+          "skill-d3": "Organização de Espaços"
+        }
+      },
+      "ne": {
+        "title": "घरेलु सफाइ कर्मचारी",
+        "description": "बुखारेस्टको सफाइ सेवा एजेन्सीले आवासीय र कार्यालय सफाइका लागि कर्मचारी नियुक्त गर्दैछ। तपाईंको उपलब्धता अनुसार तालिका, सफाइ सामग्री प्रदान गरिनेछ र दीर्घकालीन वफादार ग्राहकहरू।",
+        "skills": {
+          "skill-d1": "सामान्य सफाइ",
+          "skill-d2": "कीटाणुशोधन",
+          "skill-d3": "ठाउँ व्यवस्था"
+        }
+      }
+    }
   },
   {
     "id": "job-construction-2",
@@ -214,7 +548,54 @@
       "size": "large",
       "location": { "city": "Iași", "state": "Iași", "country": "RO" }
     },
-    "createdAt": "2026-05-12"
+    "createdAt": "2026-05-12",
+    "translations": {
+      "es": {
+        "title": "Encargado de Obra",
+        "description": "Se necesita encargado con experiencia para supervisar las operaciones diarias en un gran proyecto de infraestructura en Iași. Coordinará equipos de 15-20 trabajadores, gestionará plazos y se comunicará directamente con los ingenieros del proyecto.",
+        "skills": {
+          "skill-c4": "Liderazgo de Equipos",
+          "skill-c5": "Planificación de Proyectos",
+          "skill-c6": "Lectura de Planos"
+        }
+      },
+      "fr": {
+        "title": "Chef de Chantier",
+        "description": "Chef de chantier expérimenté recherché pour superviser les opérations quotidiennes d'un grand projet d'infrastructure à Iași. Vous coordonnerez des équipes de 15 à 20 ouvriers, gérerez les plannings et serez l'interlocuteur direct des ingénieurs projet.",
+        "skills": {
+          "skill-c4": "Management d'Équipe",
+          "skill-c5": "Planification de Chantier",
+          "skill-c6": "Lecture de Plans"
+        }
+      },
+      "de": {
+        "title": "Bauleiter / Polier",
+        "description": "Erfahrener Bauleiter gesucht zur Überwachung des Tagesgeschäfts auf einem großen Infrastrukturprojekt in Iași. Sie koordinieren Teams von 15–20 Arbeitern, verwalten Zeitpläne und stehen in direktem Kontakt mit Projektingenieuren.",
+        "skills": {
+          "skill-c4": "Teamführung",
+          "skill-c5": "Projektplanung",
+          "skill-c6": "Planlesen"
+        }
+      },
+      "pt": {
+        "title": "Encarregado de Obra",
+        "description": "Necessitamos de encarregado experiente para supervisionar as operações diárias num grande projeto de infraestrutura em Iași. Irá coordenar equipas de 15 a 20 trabalhadores, gerir cronogramas e lidar diretamente com os engenheiros do projeto.",
+        "skills": {
+          "skill-c4": "Liderança de Equipas",
+          "skill-c5": "Planeamento de Projetos",
+          "skill-c6": "Leitura de Plantas"
+        }
+      },
+      "ne": {
+        "title": "साइट फोरम्यान",
+        "description": "इयासीमा ठूलो पूर्वाधार परियोजनामा दैनिक सञ्चालन निरीक्षण गर्न अनुभवी फोरम्यान चाहिन्छ। तपाईंले १५-२० कर्मचारीका टोलीहरू समन्वय गर्नुहुनेछ, समय तालिका व्यवस्थापन गर्नुहुनेछ र परियोजना इन्जिनियरहरूसँग सीधा सम्पर्क गर्नुहुनेछ।",
+        "skills": {
+          "skill-c4": "टोली नेतृत्व",
+          "skill-c5": "परियोजना तालिका",
+          "skill-c6": "ब्लूप्रिन्ट पढाइ"
+        }
+      }
+    }
   },
   {
     "id": "job-horeca-2",
@@ -241,7 +622,54 @@
       "size": "medium",
       "location": { "city": "Constanța", "state": "Constanța", "country": "RO" }
     },
-    "createdAt": "2026-05-13"
+    "createdAt": "2026-05-13",
+    "translations": {
+      "es": {
+        "title": "Recepcionista de Hotel",
+        "description": "Hotel de cuatro estrellas en Constanța busca un recepcionista para la temporada de verano. Las responsabilidades incluyen check-in/check-out, atención a huéspedes y coordinación con el servicio de habitaciones. Se requiere inglés.",
+        "skills": {
+          "skill-h4": "Operaciones de Recepción",
+          "skill-h5": "Inglés",
+          "skill-h6": "Sistemas de Reservas"
+        }
+      },
+      "fr": {
+        "title": "Réceptionniste d'Hôtel",
+        "description": "Hôtel quatre étoiles à Constanța recrute un(e) réceptionniste pour la saison estivale. Les missions comprennent les arrivées/départs, la relation client et la coordination avec les équipes d'étage. Anglais requis.",
+        "skills": {
+          "skill-h4": "Accueil et Réception",
+          "skill-h5": "Anglais",
+          "skill-h6": "Logiciels de Réservation"
+        }
+      },
+      "de": {
+        "title": "Hotelrezeptionist / -in",
+        "description": "Vier-Sterne-Hotel in Constanța sucht eine Rezeptionsfachkraft für die Sommersaison. Aufgaben umfassen Check-in/Check-out, Gästebetreuung und Abstimmung mit der Housekeeping-Abteilung. Englischkenntnisse erforderlich.",
+        "skills": {
+          "skill-h4": "Empfangsoperationen",
+          "skill-h5": "Englisch",
+          "skill-h6": "Reservierungssysteme"
+        }
+      },
+      "pt": {
+        "title": "Rececionista de Hotel",
+        "description": "Hotel de quatro estrelas em Constanța recruta um(a) rececionista para a época de verão. As responsabilidades incluem check-in/check-out, relações com hóspedes e coordenação com o serviço de andares. Inglês obrigatório.",
+        "skills": {
+          "skill-h4": "Operações de Receção",
+          "skill-h5": "Inglês",
+          "skill-h6": "Sistemas de Reservas"
+        }
+      },
+      "ne": {
+        "title": "होटल रिसेप्शनिस्ट",
+        "description": "कन्स्टान्जाको चार-तारे होटलले ग्रीष्मकालीन सिजनका लागि फ्रन्ट-डेस्क रिसेप्शनिस्ट नियुक्त गर्दैछ। जिम्मेवारीहरूमा चेक-इन/चेक-आउट, अतिथि सम्बन्ध र हाउसकिपिङसँग समन्वय समावेश छन्। अंग्रेजी आवश्यक।",
+        "skills": {
+          "skill-h4": "फ्रन्ट डेस्क सञ्चालन",
+          "skill-h5": "अंग्रेजी",
+          "skill-h6": "आरक्षण प्रणाली"
+        }
+      }
+    }
   },
   {
     "id": "job-manufacturing-2",
@@ -268,7 +696,54 @@
       "size": "small",
       "location": { "city": "Timișoara", "state": "Timiș", "country": "RO" }
     },
-    "createdAt": "2026-05-14"
+    "createdAt": "2026-05-14",
+    "translations": {
+      "es": {
+        "title": "Operador de Máquina CNC",
+        "description": "Taller de mecanizado de precisión en Timișoara busca un operador CNC para centros de fresado y torneado. Leerá planos técnicos, configurará herramientas y realizará inspecciones de primera pieza.",
+        "skills": {
+          "skill-m4": "Programación CNC",
+          "skill-m5": "Dibujo Técnico",
+          "skill-m6": "Medición de Precisión"
+        }
+      },
+      "fr": {
+        "title": "Opérateur Machines CNC",
+        "description": "Atelier d'usinage de précision à Timișoara recherche un opérateur CNC pour des centres de fraisage et de tournage. Vous lirez des plans techniques, programmerez les outils et réaliserez des contrôles de première pièce.",
+        "skills": {
+          "skill-m4": "Programmation CNC",
+          "skill-m5": "Lecture de Plans Techniques",
+          "skill-m6": "Métrologie"
+        }
+      },
+      "de": {
+        "title": "CNC-Maschinenführer",
+        "description": "Präzisionsmechanikbetrieb in Timișoara sucht einen CNC-Bediener für Fräs- und Dreh zentren. Sie lesen technische Zeichnungen, richten Werkzeuge ein und führen Erstmusterprüfungen durch.",
+        "skills": {
+          "skill-m4": "CNC-Programmierung",
+          "skill-m5": "Technisches Zeichnen",
+          "skill-m6": "Präzisionsmessung"
+        }
+      },
+      "pt": {
+        "title": "Operador de Máquinas CNC",
+        "description": "Oficina de maquinagem de precisão em Timișoara procura um operador CNC para centros de fresagem e torneamento. Irá ler desenhos técnicos, preparar ferramentas e realizar inspeções de primeira peça.",
+        "skills": {
+          "skill-m4": "Programação CNC",
+          "skill-m5": "Desenho Técnico",
+          "skill-m6": "Metrologia"
+        }
+      },
+      "ne": {
+        "title": "सिएनसी मेसिन अपरेटर",
+        "description": "टिमिसोआराको सटीक मेटलवर्किङ पसलले मिलिङ र टर्निङ केन्द्रहरू चलाउन सिएनसी अपरेटर खोजिरहेको छ। तपाईंले प्राविधिक रेखाचित्र पढ्ने, उपकरण सेटअप गर्ने र पहिलो-लेख निरीक्षण गर्ने कार्य गर्नुहुनेछ।",
+        "skills": {
+          "skill-m4": "सिएनसी प्रोग्रामिङ",
+          "skill-m5": "प्राविधिक रेखाचित्र",
+          "skill-m6": "सटीक मापन"
+        }
+      }
+    }
   },
   {
     "id": "job-retail-2",
@@ -295,7 +770,54 @@
       "size": "large",
       "location": { "city": "Oradea", "state": "Bihor", "country": "RO" }
     },
-    "createdAt": "2026-05-15"
+    "createdAt": "2026-05-15",
+    "translations": {
+      "es": {
+        "title": "Dependiente/a de Tienda",
+        "description": "Retailer nacional de electrónica amplía su equipo en Oradea. Atenderás a los clientes en la sala de ventas, gestionarás la exposición de productos y repondrás el inventario. Sin experiencia previa necesaria — formación completa provista.",
+        "skills": {
+          "skill-r4": "Ventas",
+          "skill-r5": "Merchandising",
+          "skill-r6": "Sistemas TPV"
+        }
+      },
+      "fr": {
+        "title": "Vendeur / Vendeuse en Magasin",
+        "description": "Enseigne nationale d'électronique agrandit son équipe à Oradea. Vous conseillerez les clients en surface de vente, gérerez les présentoirs de produits et assurerez le réassort des rayons. Aucune expérience requise — formation complète assurée.",
+        "skills": {
+          "skill-r4": "Vente",
+          "skill-r5": "Merchandising",
+          "skill-r6": "Systèmes de Caisse"
+        }
+      },
+      "de": {
+        "title": "Einzelhandelsverkäufer / -in",
+        "description": "Nationales Elektronikunternehmen baut sein Team in Oradea aus. Sie beraten Kunden auf der Verkaufsfläche, betreuen Produktpräsentationen und kümmern sich um die Warenbestückung. Keine Vorkenntnisse erforderlich — vollständige Einarbeitung erfolgt.",
+        "skills": {
+          "skill-r4": "Verkauf",
+          "skill-r5": "Warenpräsentation",
+          "skill-r6": "Kassensysteme"
+        }
+      },
+      "pt": {
+        "title": "Assistente de Loja",
+        "description": "Retalhista nacional de eletrónica está a expandir a equipa em Oradea. Irá apoiar os clientes no piso de vendas, gerir expositores de produtos e tratar da reposição de stock. Sem experiência prévia necessária — formação completa fornecida.",
+        "skills": {
+          "skill-r4": "Vendas",
+          "skill-r5": "Merchandising",
+          "skill-r6": "Sistemas de Caixa"
+        }
+      },
+      "ne": {
+        "title": "खुद्रा स्टोर सहायक",
+        "description": "राष्ट्रिय इलेक्ट्रोनिक्स खुद्रा विक्रेता ओरादेयामा आफ्नो टोली विस्तार गर्दैछ। तपाईंले विक्री क्षेत्रमा ग्राहकहरूलाई सहायता गर्नुहुनेछ, उत्पादन प्रदर्शन व्यवस्थापन गर्नुहुनेछ र स्टक पुनःभर्ना गर्नुहुनेछ। पूर्व अनुभव आवश्यक छैन — पूर्ण तालिम प्रदान गरिनेछ।",
+        "skills": {
+          "skill-r4": "बिक्री",
+          "skill-r5": "मर्चेन्डाइजिङ",
+          "skill-r6": "पिओएस प्रणाली"
+        }
+      }
+    }
   },
   {
     "id": "job-agriculture-2",
@@ -322,7 +844,54 @@
       "size": "medium",
       "location": { "city": "Galați", "state": "Galați", "country": "RO" }
     },
-    "createdAt": "2026-05-16"
+    "createdAt": "2026-05-16",
+    "translations": {
+      "es": {
+        "title": "Técnico/a de Invernadero",
+        "description": "Moderno invernadero cerca de Galați contrata un técnico para monitorear sistemas climáticos, gestionar calendarios de riego y cuidar cultivos de tomate y pimiento durante todo el año. La experiencia con hidroponía es una ventaja.",
+        "skills": {
+          "skill-a4": "Hidroponía",
+          "skill-a5": "Sistemas de Control Climático",
+          "skill-a6": "Control de Plagas"
+        }
+      },
+      "fr": {
+        "title": "Technicien / Technicienne de Serre",
+        "description": "Exploitation de serres modernes près de Galați recrute un technicien pour la surveillance des systèmes climatiques, la gestion des calendriers d'irrigation et le suivi des cultures de tomates et de poivrons toute l'année. Une expérience en hydroponie est un atout.",
+        "skills": {
+          "skill-a4": "Hydroponie",
+          "skill-a5": "Systèmes de Contrôle Climatique",
+          "skill-a6": "Gestion des Nuisibles"
+        }
+      },
+      "de": {
+        "title": "Gewächshaustechniker / -in",
+        "description": "Moderner Gewächshausbetrieb bei Galați sucht einen Techniker zur Überwachung von Klimaanlagen, Bewässerungsplanung und Betreuung von Tomaten- und Paprikakulturen ganzjährig. Erfahrung mit Hydroponik ist ein Plus.",
+        "skills": {
+          "skill-a4": "Hydroponik",
+          "skill-a5": "Klimaregelungssysteme",
+          "skill-a6": "Schädlingsbekämpfung"
+        }
+      },
+      "pt": {
+        "title": "Técnico/a de Estufa",
+        "description": "Exploração de estufas modernas perto de Galați recruta um técnico para monitorizar sistemas climáticos, gerir calendários de rega e cuidar de culturas de tomate e pimento durante todo o ano. Experiência em hidroponia é valorizada.",
+        "skills": {
+          "skill-a4": "Hidroponia",
+          "skill-a5": "Sistemas de Controlo Climático",
+          "skill-a6": "Controlo de Pragas"
+        }
+      },
+      "ne": {
+        "title": "ग्रीनहाउस प्राविधिक",
+        "description": "गालाटीको नजिक आधुनिक ग्रीनहाउस सञ्चालनले जलवायु प्रणाली निगरानी, सिँचाइ तालिका व्यवस्थापन र वर्षभरि टमाटर र खुर्सानी बालीहरूको हेरचाह गर्न प्राविधिक नियुक्त गर्दैछ। हाइड्रोपोनिक्समा अनुभव थप लाभदायक हुनेछ।",
+        "skills": {
+          "skill-a4": "हाइड्रोपोनिक्स",
+          "skill-a5": "जलवायु नियन्त्रण प्रणाली",
+          "skill-a6": "कीटपतंग व्यवस्थापन"
+        }
+      }
+    }
   },
   {
     "id": "job-cleaning-2",
@@ -349,7 +918,54 @@
       "size": "medium",
       "location": { "city": "Pitești", "state": "Argeș", "country": "RO" }
     },
-    "createdAt": "2026-05-17"
+    "createdAt": "2026-05-17",
+    "translations": {
+      "es": {
+        "title": "Operario/a de Limpieza Industrial",
+        "description": "Empresa de gestión de instalaciones en Pitești contrata limpiadores industriales para una gran fábrica automotriz. Trabajo por turnos con primas de turno, EPI provisto y contrato estable a largo plazo.",
+        "skills": {
+          "skill-d4": "Limpieza Industrial",
+          "skill-d5": "Manejo de Productos Químicos",
+          "skill-d6": "Procedimientos de Seguridad"
+        }
+      },
+      "fr": {
+        "title": "Agent de Nettoyage Industriel",
+        "description": "Société de facilities management à Pitești recrute des agents de nettoyage industriel pour une grande usine automobile. Travail posté avec primes de nuit, EPI fournis et contrat stable à long terme.",
+        "skills": {
+          "skill-d4": "Nettoyage Industriel",
+          "skill-d5": "Manipulation de Produits Chimiques",
+          "skill-d6": "Procédures de Sécurité"
+        }
+      },
+      "de": {
+        "title": "Industriereiniger / -in",
+        "description": "Facility-Management-Unternehmen in Pitești sucht Industriereiniger für ein großes Automobilwerk. Schichtarbeit mit Schichtzulagen, PSA wird gestellt und stabiler Langzeitvertrag.",
+        "skills": {
+          "skill-d4": "Industriereinigung",
+          "skill-d5": "Umgang mit Chemikalien",
+          "skill-d6": "Sicherheitsvorschriften"
+        }
+      },
+      "pt": {
+        "title": "Operador/a de Limpeza Industrial",
+        "description": "Empresa de gestão de instalações em Pitești recruta operadores de limpeza industrial para uma grande fábrica automóvel. Trabalho por turnos com prémios de turno, EPI fornecido e contrato estável de longa duração.",
+        "skills": {
+          "skill-d4": "Limpeza Industrial",
+          "skill-d5": "Manuseamento de Produtos Químicos",
+          "skill-d6": "Procedimentos de Segurança"
+        }
+      },
+      "ne": {
+        "title": "औद्योगिक सफाइ अपरेटिभ",
+        "description": "पिटेस्टीको सुविधा व्यवस्थापन कम्पनीले ठूलो मोटरगाडी कारखानाका लागि औद्योगिक सफाइ कर्मचारी नियुक्त गर्दैछ। पाली प्रिमियमसहित पाली काम, पीपीई प्रदान र दीर्घकालीन स्थिर सम्झौता।",
+        "skills": {
+          "skill-d4": "औद्योगिक सफाइ",
+          "skill-d5": "रसायन ह्यान्डलिङ",
+          "skill-d6": "सुरक्षा प्रक्रियाहरू"
+        }
+      }
+    }
   },
   {
     "id": "job-horeca-3",
@@ -376,7 +992,54 @@
       "size": "small",
       "location": { "city": "Cluj-Napoca", "state": "Cluj", "country": "RO" }
     },
-    "createdAt": "2026-05-18"
+    "createdAt": "2026-05-18",
+    "translations": {
+      "es": {
+        "title": "Cocinero/a de Línea",
+        "description": "Animado bistró en Cluj-Napoca necesita un cocinero de línea fiable para el servicio de almuerzo y cena. Preparará platos según las recetas del chef, mantendrá su estación limpia y ayudará con el mise en place.",
+        "skills": {
+          "skill-h7": "Preparación de Alimentos",
+          "skill-h8": "Higiene en Cocina",
+          "skill-h9": "Gestión del Tiempo"
+        }
+      },
+      "fr": {
+        "title": "Cuisinier / Cuisinière de Partie",
+        "description": "Bistrot animé de Cluj-Napoca recherche un cuisinier de partie fiable pour le service du midi et du soir. Vous préparerez les plats selon les recettes du chef, maintiendrez votre poste propre et aiderez à la mise en place.",
+        "skills": {
+          "skill-h7": "Préparation Culinaire",
+          "skill-h8": "Hygiène en Cuisine",
+          "skill-h9": "Gestion du Temps"
+        }
+      },
+      "de": {
+        "title": "Postenkoch / -köchin",
+        "description": "Lebhaftes Bistro in Cluj-Napoca sucht einen zuverlässigen Postenkoch für den Mittag- und Abendservice. Sie bereiten Gerichte nach den Rezepten des Küchenchefs zu, halten Ihre Station sauber und helfen beim Mise en place.",
+        "skills": {
+          "skill-h7": "Speisenzubereitung",
+          "skill-h8": "Küchenhygiene",
+          "skill-h9": "Zeitmanagement"
+        }
+      },
+      "pt": {
+        "title": "Cozinheiro/a de Linha",
+        "description": "Movimentado bistro em Cluj-Napoca procura um cozinheiro de linha fiável para o serviço de almoço e jantar. Preparará pratos de acordo com as receitas do chefe, manterá a sua estação limpa e ajudará no mise en place.",
+        "skills": {
+          "skill-h7": "Preparação de Alimentos",
+          "skill-h8": "Higiene na Cozinha",
+          "skill-h9": "Gestão do Tempo"
+        }
+      },
+      "ne": {
+        "title": "लाइन कुक",
+        "description": "क्लुज-नापोकाको व्यस्त बिस्ट्रोलाई दिउँसो र बेलुकाको सेवाका लागि भरपर्दो लाइन कुक चाहिएको छ। तपाईंले शेफको रेसिपी अनुसार खाना तयार गर्नुहुनेछ, आफ्नो स्टेशन सफा राख्नुहुनेछ र मिस एन प्लेसमा मद्दत गर्नुहुनेछ।",
+        "skills": {
+          "skill-h7": "खाना तयारी",
+          "skill-h8": "भान्साघर सरसफाइ",
+          "skill-h9": "समय व्यवस्थापन"
+        }
+      }
+    }
   },
   {
     "id": "job-construction-3",
@@ -403,7 +1066,54 @@
       "size": "small",
       "location": { "city": "Brăila", "state": "Brăila", "country": "RO" }
     },
-    "createdAt": "2026-05-19"
+    "createdAt": "2026-05-19",
+    "translations": {
+      "es": {
+        "title": "Electricista",
+        "description": "Empresa de instalaciones eléctricas en Brăila contrata electricistas certificados para proyectos de cableado residencial y acondicionamiento comercial. El trabajo incluye instalación de cuadros, conductos y sistemas domóticos.",
+        "skills": {
+          "skill-c7": "Instalación Eléctrica",
+          "skill-c8": "Montaje de Cuadros",
+          "skill-c9": "Cumplimiento de Seguridad"
+        }
+      },
+      "fr": {
+        "title": "Électricien / Électricienne",
+        "description": "Entreprise d'installation électrique à Brăila recrute des électriciens titulaires d'habilitation pour des chantiers de câblage résidentiel et d'aménagement commercial. Les travaux incluent la pose de tableaux, de conduits et de systèmes domotiques.",
+        "skills": {
+          "skill-c7": "Câblage Électrique",
+          "skill-c8": "Pose de Tableaux Électriques",
+          "skill-c9": "Conformité Sécurité"
+        }
+      },
+      "de": {
+        "title": "Elektriker / -in",
+        "description": "Elektroinstallationsunternehmen in Brăila sucht zugelassene Elektriker für Wohnbereichsverkabelungen und gewerbliche Ausbauarbeiten. Tätigkeiten umfassen die Installation von Unterverteilungen, Leitungskanälen und Smart-Home-Systemen.",
+        "skills": {
+          "skill-c7": "Elektroinstallation",
+          "skill-c8": "Verteilermontage",
+          "skill-c9": "Sicherheitskonformität"
+        }
+      },
+      "pt": {
+        "title": "Eletricista",
+        "description": "Empresa de instalações elétricas em Brăila recruta eletricistas certificados para projetos de cablagem residencial e obras de adaptação comercial. O trabalho inclui instalação de quadros elétricos, condutas e sistemas de casa inteligente.",
+        "skills": {
+          "skill-c7": "Instalação Elétrica",
+          "skill-c8": "Instalação de Quadros",
+          "skill-c9": "Conformidade com Normas de Segurança"
+        }
+      },
+      "ne": {
+        "title": "इलेक्ट्रिसियन",
+        "description": "ब्रायलाको विद्युत ठेकेदारले आवासीय वायरिङ र व्यावसायिक फिट-आउट परियोजनाका लागि लाइसेन्सप्राप्त इलेक्ट्रिसियनहरू नियुक्त गर्दैछ। कामहरूमा प्यानल, कन्ड्युट र स्मार्ट होम प्रणाली जडान समावेश छ।",
+        "skills": {
+          "skill-c7": "विद्युत वायरिङ",
+          "skill-c8": "प्यानल जडान",
+          "skill-c9": "सुरक्षा अनुपालन"
+        }
+      }
+    }
   },
   {
     "id": "job-retail-3",
@@ -430,7 +1140,54 @@
       "size": "medium",
       "location": { "city": "București", "state": "Ilfov", "country": "RO" }
     },
-    "createdAt": "2026-05-20"
+    "createdAt": "2026-05-20",
+    "translations": {
+      "es": {
+        "title": "Supervisor/a de Logística",
+        "description": "Centro de fulfillment de comercio electrónico en Bucarest busca un supervisor de logística para supervisar las operaciones de picking, empaquetado y despacho en dos turnos. Se requieren sólidas habilidades organizativas y experiencia previa en gestión de almacén.",
+        "skills": {
+          "skill-r7": "Gestión de Almacén",
+          "skill-r8": "Liderazgo de Equipos",
+          "skill-r9": "Informes de KPI"
+        }
+      },
+      "fr": {
+        "title": "Responsable Logistique",
+        "description": "Centre de fulfillment e-commerce à Bucarest recherche un responsable logistique pour superviser les opérations de picking, d'emballage et d'expédition sur deux équipes. De solides compétences organisationnelles et une expérience préalable en management d'entrepôt sont requises.",
+        "skills": {
+          "skill-r7": "Gestion d'Entrepôt",
+          "skill-r8": "Management d'Équipe",
+          "skill-r9": "Reporting KPI"
+        }
+      },
+      "de": {
+        "title": "Logistikleiter / -in",
+        "description": "E-Commerce-Fulfillment-Center in Bukarest sucht eine Logistikleitung zur Überwachung von Kommissionierung, Verpackung und Versand über zwei Schichten. Ausgeprägte Organisationsfähigkeit und Führungserfahrung im Lager werden vorausgesetzt.",
+        "skills": {
+          "skill-r7": "Lagerverwaltung",
+          "skill-r8": "Teamführung",
+          "skill-r9": "KPI-Reporting"
+        }
+      },
+      "pt": {
+        "title": "Supervisor/a de Logística",
+        "description": "Centro de fulfillment de e-commerce em Bucareste recruta um supervisor de logística para gerir as operações de picking, embalagem e expedição em dois turnos. Fortes competências organizacionais e experiência prévia em liderança de armazém são obrigatórias.",
+        "skills": {
+          "skill-r7": "Gestão de Armazém",
+          "skill-r8": "Liderança de Equipas",
+          "skill-r9": "Relatórios de KPI"
+        }
+      },
+      "ne": {
+        "title": "लजिस्टिक्स सुपरभाइजर",
+        "description": "बुखारेस्टको इ-कमर्स फुलफिलमेन्ट केन्द्रले दुई पालीमा पिकिङ, प्याकिङ र डेस्प्याच सञ्चालन निगरानी गर्न लजिस्टिक्स सुपरभाइजर नियुक्त गर्दैछ। दृढ संगठनात्मक कौशल र गोदाम नेतृत्वमा पूर्व अनुभव आवश्यक।",
+        "skills": {
+          "skill-r7": "गोदाम व्यवस्थापन",
+          "skill-r8": "टोली नेतृत्व",
+          "skill-r9": "केपीआई रिपोर्टिङ"
+        }
+      }
+    }
   },
   {
     "id": "job-agriculture-3",
@@ -457,6 +1214,53 @@
       "size": "large",
       "location": { "city": "Slobozia", "state": "Ialomița", "country": "RO" }
     },
-    "createdAt": "2026-05-21"
+    "createdAt": "2026-05-21",
+    "translations": {
+      "es": {
+        "title": "Conductor/a de Tractor",
+        "description": "Granja de cereales en la llanura de Bărăgan busca un conductor de tractor con experiencia para labores de arado, siembra y cosecha. Puesto a largo plazo con alojamiento disponible en el lugar.",
+        "skills": {
+          "skill-a7": "Conducción de Tractor",
+          "skill-a8": "Maquinaria Agrícola",
+          "skill-a9": "Navegación de Campos"
+        }
+      },
+      "fr": {
+        "title": "Chauffeur / Chauffeuse de Tracteur",
+        "description": "Exploitation céréalière dans la plaine de Bărăgan recherche un chauffeur de tracteur expérimenté pour les opérations de labour, de semis et de moisson. Poste pérenne avec possibilité de logement sur place.",
+        "skills": {
+          "skill-a7": "Conduite de Tracteur",
+          "skill-a8": "Machinisme Agricole",
+          "skill-a9": "Navigation en Plein Champ"
+        }
+      },
+      "de": {
+        "title": "Traktorfahrer / -in",
+        "description": "Getreidebetrieb in der Bărăgan-Ebene sucht einen erfahrenen Traktorfahrer für Pflügen, Säen und Erntearbeiten. Langfristige Stelle mit Unterkunftsmöglichkeit vor Ort.",
+        "skills": {
+          "skill-a7": "Traktorbedienung",
+          "skill-a8": "Landtechnik",
+          "skill-a9": "Feldnavigation"
+        }
+      },
+      "pt": {
+        "title": "Condutor/a de Trator",
+        "description": "Exploração cerealífera na planície de Bărăgan procura um condutor de trator experiente para operações de lavoura, sementeira e colheita. Posição de longa duração com possibilidade de alojamento no local.",
+        "skills": {
+          "skill-a7": "Condução de Trator",
+          "skill-a8": "Maquinaria Agrícola",
+          "skill-a9": "Navegação em Campo"
+        }
+      },
+      "ne": {
+        "title": "ट्र्याक्टर चालक",
+        "description": "बाराग्यान मैदानको अन्न फार्मले जोत्ने, बीउ छर्ने र फसल कटाइ कार्यहरूका लागि अनुभवी ट्र्याक्टर चालक खोजिरहेको छ। साइटमा आवासको व्यवस्थासहित दीर्घकालीन पद।",
+        "skills": {
+          "skill-a7": "ट्र्याक्टर सञ्चालन",
+          "skill-a8": "कृषि यन्त्र",
+          "skill-a9": "खेत नेभिगेसन"
+        }
+      }
+    }
   }
 ]

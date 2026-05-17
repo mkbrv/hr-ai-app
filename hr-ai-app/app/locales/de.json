@@ -20,6 +20,24 @@
     "pass": "Überspringen",
     "apply": "Bewerben"
   },
+  "enums": {
+    "employmentType": {
+      "full-time": "Vollzeit",
+      "part-time": "Teilzeit",
+      "contract": "Vertrag",
+      "internship": "Praktikum"
+    },
+    "workArrangement": {
+      "onsite": "Vor Ort",
+      "hybrid": "Hybrid",
+      "remote": "Remote"
+    },
+    "experienceLevel": {
+      "entry": "Einsteiger",
+      "mid": "Fortgeschritten",
+      "senior": "Senior"
+    }
+  },
   "jobCard": {
     "photoAlt": "Job {{title}}",
     "driverLicense": "Führerschein",

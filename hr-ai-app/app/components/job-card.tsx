@@ -10,6 +10,7 @@ import {
   CardTitle,
 } from "~/components/ui/card"
 import type { Job } from "~/domain/models"
+import { selectLanguage, useLanguageStore } from "~/store/language"
 
 function formatCompensation(job: Job, t: (key: string) => string): string {
   const { min, max, currency, period } = job.compensation
@@ -26,12 +27,17 @@ function formatLocation(job: Job): string {
 
 export function JobCard({ job, className }: { job: Job; className?: string }) {
   const { t } = useTranslation()
+  const lang = useLanguageStore(selectLanguage)
+  const tr = job.translations?.[lang]
+  const title = tr?.title ?? job.title
+  const description = tr?.description ?? job.description
+
   return (
     <Card className={cn("w-full overflow-hidden", className)}>
       {job.photo ? (
         <img
           src={assetUrl(job.photo)}
-          alt={t("jobCard.photoAlt", { title: job.title })}
+          alt={t("jobCard.photoAlt", { title })}
           className="aspect-[4/3] w-full object-cover"
         />
       ) : (
@@ -39,7 +45,7 @@ export function JobCard({ job, className }: { job: Job; className?: string }) {
       )}
 
       <CardHeader>
-        <CardTitle className="text-lg">{job.title}</CardTitle>
+        <CardTitle className="text-lg">{title}</CardTitle>
         <div className="flex flex-col gap-1 text-sm text-muted-foreground">
           <span className="flex items-center gap-1.5">
             <MapPin className="size-3.5 shrink-0" />
@@ -54,14 +60,20 @@ export function JobCard({ job, className }: { job: Job; className?: string }) {
 
       <CardContent className="flex flex-col gap-4">
         <p className="text-sm leading-relaxed text-muted-foreground">
-          {job.description}
+          {description}
         </p>
+
+        <div className="flex flex-wrap gap-1.5">
+          <Badge variant="secondary">{t(`enums.employmentType.${job.employmentType}`)}</Badge>
+          <Badge variant="secondary">{t(`enums.workArrangement.${job.workArrangement}`)}</Badge>
+          <Badge variant="secondary">{t(`enums.experienceLevel.${job.experienceLevel}`)}</Badge>
+        </div>
 
         {(job.skills.length > 0 || job.requiresDriverLicense) && (
           <div className="flex flex-wrap gap-1.5">
             {job.skills.map((skill) => (
               <Badge key={skill.id} variant="outline">
-                {skill.name}
+                {tr?.skills?.[skill.id] ?? skill.name}
               </Badge>
             ))}
             {job.requiresDriverLicense && (

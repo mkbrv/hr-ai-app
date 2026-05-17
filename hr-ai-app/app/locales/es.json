@@ -20,6 +20,24 @@
     "pass": "Pasar",
     "apply": "Aplicar"
   },
+  "enums": {
+    "employmentType": {
+      "full-time": "Tiempo completo",
+      "part-time": "Tiempo parcial",
+      "contract": "Contrato",
+      "internship": "Prácticas"
+    },
+    "workArrangement": {
+      "onsite": "Presencial",
+      "hybrid": "Híbrido",
+      "remote": "Remoto"
+    },
+    "experienceLevel": {
+      "entry": "Nivel inicial",
+      "mid": "Nivel intermedio",
+      "senior": "Senior"
+    }
+  },
   "jobCard": {
     "photoAlt": "empleo de {{title}}",
     "driverLicense": "Licencia de conducir",

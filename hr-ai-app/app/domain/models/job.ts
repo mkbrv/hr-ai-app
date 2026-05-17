@@ -12,6 +12,12 @@ export interface Compensation {
   period: CompensationPeriod
 }
 
+export interface JobTranslation {
+  title: string
+  description: string
+  skills: Record<string, string>
+}
+
 export interface Job {
   id: string
   title: string
@@ -27,4 +33,5 @@ export interface Job {
   status: JobStatus
   company: Company
   createdAt: Date
+  translations?: Record<string, JobTranslation>
 }

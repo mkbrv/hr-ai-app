@@ -20,6 +20,24 @@
     "pass": "Pass",
     "apply": "Apply"
   },
+  "enums": {
+    "employmentType": {
+      "full-time": "Full-time",
+      "part-time": "Part-time",
+      "contract": "Contract",
+      "internship": "Internship"
+    },
+    "workArrangement": {
+      "onsite": "On-site",
+      "hybrid": "Hybrid",
+      "remote": "Remote"
+    },
+    "experienceLevel": {
+      "entry": "Entry level",
+      "mid": "Mid level",
+      "senior": "Senior"
+    }
+  },
   "jobCard": {
     "photoAlt": "{{title}} job",
     "driverLicense": "Driver license",

@@ -20,6 +20,24 @@
     "pass": "Treci",
     "apply": "Aplică"
   },
+  "enums": {
+    "employmentType": {
+      "full-time": "Normă întreagă",
+      "part-time": "Normă parțială",
+      "contract": "Contract",
+      "internship": "Stagiu"
+    },
+    "workArrangement": {
+      "onsite": "La birou",
+      "hybrid": "Hibrid",
+      "remote": "De la distanță"
+    },
+    "experienceLevel": {
+      "entry": "Nivel începător",
+      "mid": "Nivel mediu",
+      "senior": "Senior"
+    }
+  },
   "jobCard": {
     "photoAlt": "job {{title}}",
     "driverLicense": "Permis de conducere",
