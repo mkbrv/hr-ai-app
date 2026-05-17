@@ -22,6 +22,13 @@
   },
   "jobCard": {
     "photoAlt": "{{title}} job",
-    "driverLicense": "Driver license"
+    "driverLicense": "Driver license",
+    "period": {
+      "hourly": "per hour",
+      "daily": "per day",
+      "weekly": "per week",
+      "monthly": "per month",
+      "yearly": "per year"
+    }
   }
 }

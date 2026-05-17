@@ -11,11 +11,12 @@ import {
 } from "~/components/ui/card"
 import type { Job } from "~/domain/models"
 
-function formatCompensation(job: Job): string {
+function formatCompensation(job: Job, t: (key: string) => string): string {
   const { min, max, currency, period } = job.compensation
   const fmt = (n: number) =>
     new Intl.NumberFormat("en-US", { style: "currency", currency, maximumFractionDigits: 0 }).format(n)
-  return max ? `${fmt(min)} – ${fmt(max)} / ${period}` : `${fmt(min)} / ${period}`
+  const periodLabel = t(`jobCard.period.${period}`)
+  return max ? `${fmt(min)} – ${fmt(max)} / ${periodLabel}` : `${fmt(min)} / ${periodLabel}`
 }
 
 function formatLocation(job: Job): string {
@@ -46,7 +47,7 @@ export function JobCard({ job, className }: { job: Job; className?: string }) {
           </span>
           <span className="flex items-center gap-1.5">
             <Banknote className="size-3.5 shrink-0" />
-            {formatCompensation(job)}
+            {formatCompensation(job, t)}
           </span>
         </div>
       </CardHeader>

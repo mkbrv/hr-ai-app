@@ -1,0 +1,34 @@
+{
+  "app": {
+    "name": "HR AI"
+  },
+  "brand": {
+    "name": "JobSwipe",
+    "slogan": "Câștigă bani",
+    "homeLink": "JobSwipe — mergi la pagina principală"
+  },
+  "home": {
+    "title": "Găsește jobul visurilor tale",
+    "subtitle": "Poarta ta de acces către cele mai bune joburi.",
+    "cta": "Angajează acum"
+  },
+  "dashboard": {
+    "jobFeedLabel": "Oferte de muncă",
+    "swipeActionsLabel": "Acțiuni de glisare",
+    "allCaughtUp": "Ești la zi!",
+    "noMoreJobs": "Nu mai sunt joburi acum — revino mai târziu.",
+    "pass": "Treci",
+    "apply": "Aplică"
+  },
+  "jobCard": {
+    "photoAlt": "job {{title}}",
+    "driverLicense": "Permis de conducere",
+    "period": {
+      "hourly": "pe oră",
+      "daily": "pe zi",
+      "weekly": "pe săptămână",
+      "monthly": "pe lună",
+      "yearly": "pe an"
+    }
+  }
+}
