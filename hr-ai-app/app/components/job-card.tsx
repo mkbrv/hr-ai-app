@@ -1,6 +1,6 @@
 import { Banknote, Car, MapPin } from "lucide-react"
 
-import { cn } from "~/lib/utils"
+import { assetUrl, cn } from "~/lib/utils"
 import { Badge } from "~/components/ui/badge"
 import {
   Card,
@@ -27,7 +27,7 @@ export function JobCard({ job, className }: { job: Job; className?: string }) {
     <Card className={cn("w-full overflow-hidden", className)}>
       {job.photo ? (
         <img
-          src={job.photo}
+          src={assetUrl(job.photo)}
           alt={`${job.title} job`}
           className="aspect-[4/3] w-full object-cover"
         />

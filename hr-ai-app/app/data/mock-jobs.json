@@ -160,5 +160,275 @@
       "location": { "city": "București", "state": "Ilfov", "country": "RO" }
     },
     "createdAt": "2026-05-11"
+  },
+  {
+    "id": "job-construction-2",
+    "title": "Site Foreman",
+    "description": "Experienced foreman needed to supervise daily operations on a large infrastructure project in Iași. You will coordinate teams of 15–20 workers, manage timelines, and liaise directly with project engineers.",
+    "photo": "/images/constructions.jpg",
+    "location": { "city": "Iași", "state": "Iași", "country": "RO" },
+    "compensation": { "min": 6500, "max": 8500, "currency": "RON", "period": "monthly" },
+    "skills": [
+      { "id": "skill-c4", "name": "Team Leadership" },
+      { "id": "skill-c5", "name": "Project Scheduling" },
+      { "id": "skill-c6", "name": "Blueprint Reading" }
+    ],
+    "requiresDriverLicense": true,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "senior",
+    "status": "open",
+    "company": {
+      "id": "company-c2",
+      "name": "InfraBuild Group",
+      "description": "Large-scale infrastructure contractor operating on EU-funded road and bridge projects across Moldova and Muntenia.",
+      "industry": "Construction",
+      "size": "large",
+      "location": { "city": "Iași", "state": "Iași", "country": "RO" }
+    },
+    "createdAt": "2026-05-12"
+  },
+  {
+    "id": "job-horeca-2",
+    "title": "Hotel Receptionist",
+    "description": "Four-star hotel in Constanța is hiring a front-desk receptionist for the summer season. Responsibilities include check-in/check-out, guest relations, and coordinating with housekeeping. English required.",
+    "photo": "/images/hospitality-and-food.jpg",
+    "location": { "city": "Constanța", "state": "Constanța", "country": "RO" },
+    "compensation": { "min": 3800, "max": 4500, "currency": "RON", "period": "monthly" },
+    "skills": [
+      { "id": "skill-h4", "name": "Front Desk Operations" },
+      { "id": "skill-h5", "name": "English" },
+      { "id": "skill-h6", "name": "Reservation Systems" }
+    ],
+    "requiresDriverLicense": false,
+    "employmentType": "contract",
+    "workArrangement": "onsite",
+    "experienceLevel": "entry",
+    "status": "open",
+    "company": {
+      "id": "company-h2",
+      "name": "Marea Neagră Resort",
+      "description": "Seaside four-star hotel with 180 rooms, two restaurants, and a spa on the Black Sea coast.",
+      "industry": "Hospitality & Food",
+      "size": "medium",
+      "location": { "city": "Constanța", "state": "Constanța", "country": "RO" }
+    },
+    "createdAt": "2026-05-13"
+  },
+  {
+    "id": "job-manufacturing-2",
+    "title": "CNC Machine Operator",
+    "description": "Precision metalworking shop in Timișoara is looking for a CNC operator to run milling and turning centers. You will read technical drawings, set up tooling, and perform first-article inspections.",
+    "photo": "/images/manufacturing-assembly-lines.jpg",
+    "location": { "city": "Timișoara", "state": "Timiș", "country": "RO" },
+    "compensation": { "min": 28, "max": 34, "currency": "RON", "period": "hourly" },
+    "skills": [
+      { "id": "skill-m4", "name": "CNC Programming" },
+      { "id": "skill-m5", "name": "Technical Drawing" },
+      { "id": "skill-m6", "name": "Precision Measurement" }
+    ],
+    "requiresDriverLicense": false,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "mid",
+    "status": "open",
+    "company": {
+      "id": "company-m2",
+      "name": "MetalTech Vest SRL",
+      "description": "Precision machining supplier for the aerospace and automotive sectors, ISO 9001 certified.",
+      "industry": "Manufacturing & Assembly",
+      "size": "small",
+      "location": { "city": "Timișoara", "state": "Timiș", "country": "RO" }
+    },
+    "createdAt": "2026-05-14"
+  },
+  {
+    "id": "job-retail-2",
+    "title": "Retail Store Assistant",
+    "description": "National electronics retailer is expanding its team in Oradea. You will assist customers on the sales floor, manage product displays, and handle stock replenishment. No prior experience needed — full training provided.",
+    "photo": "/images/retail.jpg",
+    "location": { "city": "Oradea", "state": "Bihor", "country": "RO" },
+    "compensation": { "min": 3400, "max": 4000, "currency": "RON", "period": "monthly" },
+    "skills": [
+      { "id": "skill-r4", "name": "Sales" },
+      { "id": "skill-r5", "name": "Merchandising" },
+      { "id": "skill-r6", "name": "POS Systems" }
+    ],
+    "requiresDriverLicense": false,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "entry",
+    "status": "open",
+    "company": {
+      "id": "company-r2",
+      "name": "TechMart România",
+      "description": "Electronics and home appliance retail chain with 60 stores nationwide.",
+      "industry": "Retail & Logistics",
+      "size": "large",
+      "location": { "city": "Oradea", "state": "Bihor", "country": "RO" }
+    },
+    "createdAt": "2026-05-15"
+  },
+  {
+    "id": "job-agriculture-2",
+    "title": "Greenhouse Technician",
+    "description": "Modern greenhouse operation near Galați is hiring a technician to monitor climate systems, manage irrigation schedules, and care for tomato and pepper crops year-round. Experience with hydroponics is a plus.",
+    "photo": "/images/agriculture.jpg",
+    "location": { "city": "Galați", "state": "Galați", "country": "RO" },
+    "compensation": { "min": 4200, "max": 5000, "currency": "RON", "period": "monthly" },
+    "skills": [
+      { "id": "skill-a4", "name": "Hydroponics" },
+      { "id": "skill-a5", "name": "Climate Control Systems" },
+      { "id": "skill-a6", "name": "Pest Management" }
+    ],
+    "requiresDriverLicense": false,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "mid",
+    "status": "open",
+    "company": {
+      "id": "company-a2",
+      "name": "GreenGrow Dunărea SRL",
+      "description": "High-tech greenhouse producer supplying supermarket chains with fresh vegetables throughout Romania.",
+      "industry": "Agriculture",
+      "size": "medium",
+      "location": { "city": "Galați", "state": "Galați", "country": "RO" }
+    },
+    "createdAt": "2026-05-16"
+  },
+  {
+    "id": "job-cleaning-2",
+    "title": "Industrial Cleaning Operative",
+    "description": "Facilities management company in Pitești is hiring industrial cleaners for a large automotive factory. Shift work with shift premiums, PPE provided, and stable long-term contract.",
+    "photo": "/images/domestic-cleaning.jpg",
+    "location": { "city": "Pitești", "state": "Argeș", "country": "RO" },
+    "compensation": { "min": 20, "max": 24, "currency": "RON", "period": "hourly" },
+    "skills": [
+      { "id": "skill-d4", "name": "Industrial Cleaning" },
+      { "id": "skill-d5", "name": "Chemical Handling" },
+      { "id": "skill-d6", "name": "Safety Procedures" }
+    ],
+    "requiresDriverLicense": false,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "entry",
+    "status": "open",
+    "company": {
+      "id": "company-d2",
+      "name": "FacilPro Services",
+      "description": "Integrated facilities management company serving industrial and commercial clients across southern Romania.",
+      "industry": "Domestic & Cleaning",
+      "size": "medium",
+      "location": { "city": "Pitești", "state": "Argeș", "country": "RO" }
+    },
+    "createdAt": "2026-05-17"
+  },
+  {
+    "id": "job-horeca-3",
+    "title": "Line Cook",
+    "description": "Busy bistro in Cluj-Napoca needs a reliable line cook for the lunch and dinner service. You will prepare dishes according to the chef's recipes, keep your station clean, and help with mise en place.",
+    "photo": "/images/hospitality-and-food.jpg",
+    "location": { "city": "Cluj-Napoca", "state": "Cluj", "country": "RO" },
+    "compensation": { "min": 22, "max": 27, "currency": "RON", "period": "hourly" },
+    "skills": [
+      { "id": "skill-h7", "name": "Food Preparation" },
+      { "id": "skill-h8", "name": "Kitchen Hygiene" },
+      { "id": "skill-h9", "name": "Time Management" }
+    ],
+    "requiresDriverLicense": false,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "entry",
+    "status": "open",
+    "company": {
+      "id": "company-h3",
+      "name": "Bistro Ardeal",
+      "description": "Popular urban bistro in the Mărăști district serving modern Romanian cuisine to 200+ covers daily.",
+      "industry": "Hospitality & Food",
+      "size": "small",
+      "location": { "city": "Cluj-Napoca", "state": "Cluj", "country": "RO" }
+    },
+    "createdAt": "2026-05-18"
+  },
+  {
+    "id": "job-construction-3",
+    "title": "Electrician",
+    "description": "Electrical contractor in Brăila is hiring licensed electricians for residential wiring and commercial fit-out projects. Work includes installation of panels, conduit, and smart home systems.",
+    "photo": "/images/constructions.jpg",
+    "location": { "city": "Brăila", "state": "Brăila", "country": "RO" },
+    "compensation": { "min": 30, "max": 38, "currency": "RON", "period": "hourly" },
+    "skills": [
+      { "id": "skill-c7", "name": "Electrical Wiring" },
+      { "id": "skill-c8", "name": "Panel Installation" },
+      { "id": "skill-c9", "name": "Safety Compliance" }
+    ],
+    "requiresDriverLicense": true,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "mid",
+    "status": "open",
+    "company": {
+      "id": "company-c3",
+      "name": "ElectroFit SRL",
+      "description": "Electrical installation and maintenance contractor active in Muntenia and Dobrogea for over 10 years.",
+      "industry": "Construction",
+      "size": "small",
+      "location": { "city": "Brăila", "state": "Brăila", "country": "RO" }
+    },
+    "createdAt": "2026-05-19"
+  },
+  {
+    "id": "job-retail-3",
+    "title": "Logistics Supervisor",
+    "description": "E-commerce fulfillment center in Bucharest is hiring a logistics supervisor to oversee picking, packing, and dispatch operations across two shifts. Strong organisational skills and prior warehouse leadership experience required.",
+    "photo": "/images/retail.jpg",
+    "location": { "city": "București", "state": "Ilfov", "country": "RO" },
+    "compensation": { "min": 7000, "max": 9000, "currency": "RON", "period": "monthly" },
+    "skills": [
+      { "id": "skill-r7", "name": "Warehouse Management" },
+      { "id": "skill-r8", "name": "Team Leadership" },
+      { "id": "skill-r9", "name": "KPI Reporting" }
+    ],
+    "requiresDriverLicense": true,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "mid",
+    "status": "open",
+    "company": {
+      "id": "company-r3",
+      "name": "ShopFast Fulfillment",
+      "description": "Third-party logistics provider specialising in e-commerce order fulfillment with same-day delivery capability.",
+      "industry": "Retail & Logistics",
+      "size": "medium",
+      "location": { "city": "București", "state": "Ilfov", "country": "RO" }
+    },
+    "createdAt": "2026-05-20"
+  },
+  {
+    "id": "job-agriculture-3",
+    "title": "Tractor Driver",
+    "description": "Cereal farm in the Baragan plain is looking for an experienced tractor driver for ploughing, sowing, and harvesting operations. Long-term position with accommodation available on-site.",
+    "photo": "/images/agriculture.jpg",
+    "location": { "city": "Slobozia", "state": "Ialomița", "country": "RO" },
+    "compensation": { "min": 4500, "max": 5500, "currency": "RON", "period": "monthly" },
+    "skills": [
+      { "id": "skill-a7", "name": "Tractor Operation" },
+      { "id": "skill-a8", "name": "Agricultural Machinery" },
+      { "id": "skill-a9", "name": "Field Navigation" }
+    ],
+    "requiresDriverLicense": true,
+    "employmentType": "full-time",
+    "workArrangement": "onsite",
+    "experienceLevel": "entry",
+    "status": "open",
+    "company": {
+      "id": "company-a3",
+      "name": "Câmpia Agricolă SA",
+      "description": "Large cereal and sunflower producer farming over 2,000 hectares in the Ialomița and Călărași counties.",
+      "industry": "Agriculture",
+      "size": "large",
+      "location": { "city": "Slobozia", "state": "Ialomița", "country": "RO" }
+    },
+    "createdAt": "2026-05-21"
   }
 ]
