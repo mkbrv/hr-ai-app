@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "react-router build && node scripts/build-pages.js",
+    "build": "react-router build",
     "dev": "react-router dev",
     "start": "npx serve public",
     "typecheck": "react-router typegen && tsc",
