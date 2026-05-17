@@ -3,6 +3,7 @@ import { Heart, X } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
 import { BrandLogo } from "~/components/brand-logo"
+import { LanguageSelector } from "~/components/language-selector"
 import { JobCard } from "~/components/job-card"
 import { SwipeableCard, type SwipeableCardRef } from "~/components/swipeable-card"
 import { Button } from "~/components/ui/button"
@@ -18,7 +19,7 @@ export default function Dashboard() {
   return (
     <main className="flex min-h-svh flex-col bg-background">
       {/* Header */}
-      <header className="flex h-14 shrink-0 items-center border-b px-4">
+      <header className="flex h-14 shrink-0 items-center justify-between border-b px-4">
         <BrandLogo
           asLink
           showSlogan={false}
@@ -26,6 +27,7 @@ export default function Dashboard() {
           wordmarkSize="text-sm"
           className="flex-row gap-2"
         />
+        <LanguageSelector />
       </header>
 
       {/* Centered column — card + actions */}

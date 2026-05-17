@@ -3,7 +3,7 @@ import { persist } from "zustand/middleware"
 
 import i18n from "~/i18n"
 
-export type LanguageCode = "en" | "es" | "fr" | "de" | "pt"
+export type LanguageCode = "en" | "es" | "fr" | "de" | "pt" | "ne"
 
 interface LanguageState {
   language: LanguageCode

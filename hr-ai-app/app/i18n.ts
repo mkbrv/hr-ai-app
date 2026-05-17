@@ -7,6 +7,7 @@ import es from "~/locales/es.json";
 import fr from "~/locales/fr.json";
 import de from "~/locales/de.json";
 import pt from "~/locales/pt.json";
+import ne from "~/locales/ne.json";
 
 i18n
   .use(LanguageDetector)
@@ -14,13 +15,14 @@ i18n
   .init({
     lng: "en",
     fallbackLng: "en",
-    supportedLngs: ["en", "es", "fr", "de", "pt"],
+    supportedLngs: ["en", "es", "fr", "de", "pt", "ne"],
     resources: {
       en: { translation: en },
       es: { translation: es },
       fr: { translation: fr },
       de: { translation: de },
       pt: { translation: pt },
+      ne: { translation: ne },
     },
     interpolation: {
       escapeValue: false,
